@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  background: #f5f5f5;
+}
+body {
+  background: #ffffff;
+}
+.car-state {
+  border-bottom: 1px solid #fefefe;
+  display: flex;
+}
+.car-state__item {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+}
+.car-state__name {
+  font-size: 90%;
+  margin-bottom: 8px;
+}
+.car-state__value {
+  font-weight: bold;
+  color: #FF5722;
+  font-family: monospace;
+}
+.car-box {
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+.car-box canvas {
+  display: block;
+  background: gray;
+  cursor: pointer;
+  width: 100%;
+}

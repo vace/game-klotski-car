@@ -1,0 +1,42 @@
+* { padding: 0; margin: 0 }
+html {
+  background: #f5f5f5;
+}
+body {
+  background: #ffffff;
+}
+
+.car {
+  &-state {
+    border-bottom: 1px solid #fefefe;
+    display: flex;
+    &__item {
+      flex: 1;
+      text-align: center;
+      padding: 10px;
+    }
+    &__name {
+      font-size: 90%;
+      margin-bottom: 8px;
+    }
+    &__value {
+      font-weight: bold;
+      color: #FF5722;
+      font-family: monospace;
+    }
+  }
+
+  &-box {
+    width: 100%;
+    margin: auto;
+    position: relative;
+
+    canvas {
+      display: block;
+      background: gray;
+      cursor: pointer;
+      width: 100%;
+    }
+  }
+
+}
